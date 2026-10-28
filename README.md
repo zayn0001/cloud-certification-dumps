@@ -1,5 +1,9 @@
 # Cert Flashcards
 
+**Live:** [mishalsclouddumps.streamlit.app](https://mishalsclouddumps.streamlit.app/)
+
+> Hosted on Streamlit Community Cloud: if the app has been idle it may show a "wake up" screen first; click it and give it a few seconds.
+
 An interactive [Streamlit](https://streamlit.io) flashcard app for practising cloud certification exam questions.
 
 | Exam | File | Questions |
