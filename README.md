@@ -71,7 +71,7 @@ Each file in `data/` is a JSON array of questions for **one** exam. Every questi
    python validate.py
    ```
 
-   It checks the schema, answer keys, choice types, unique IDs and duplicates. CI runs the same check on every push and pull request.
+   It checks the schema, answer keys, choice types, unique IDs and duplicates.
 
 ## Disclaimer
 
