@@ -4,7 +4,7 @@ import os
 import random
 from collections import deque
 
-st.set_page_config(page_title="AI Flashcards", page_icon="🧠", layout="centered")
+st.set_page_config(page_title="Cert Flashcards", page_icon="🧠", layout="centered")
 
 # --- Custom CSS for better aesthetics ---
 st.markdown("""
@@ -44,8 +44,8 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.title("🧠 Premium AI Flashcards")
-st.markdown("Master your knowledge with interactive, beautifully designed flashcards.")
+st.title("🧠 Cert Flashcards")
+st.markdown("Practice cloud certification exam questions with interactive flashcards.")
 
 # ------------------------------------------------
 # Load questions
@@ -54,13 +54,13 @@ DATA_DIR = "data"
 
 @st.cache_data
 def load_questions(data_dir=DATA_DIR):
-    """Load all .json or .jsonl question files."""
+    """Load all .json question files."""
     questions = []
     if not os.path.exists(data_dir):
         return questions
         
     for file in os.listdir(data_dir):
-        if file.endswith(".json") or file.endswith(".jsonl"):
+        if file.endswith(".json"):
             try:
                 with open(os.path.join(data_dir, file), "r", encoding="utf-8") as f:
                     data = json.load(f)
