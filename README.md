@@ -15,6 +15,8 @@ An interactive [Streamlit](https://streamlit.io) flashcard app for practising cl
 - Single-answer and multi-select questions, with answers shuffled per card
 - Explanations for correct and incorrect choices (where the dataset has them)
 - Overall and last-10 accuracy, a progress bar, and jump-to-question
+- Keyboard shortcuts: **N** next, **P** previous
+- Light and dark mode (follows your system setting)
 
 ## Quick start
 
